@@ -1,6 +1,6 @@
 from typing import List
 
-def twoSum(nums: List[int], target: int) -> List[int]:
+def twoSum(self, nums: List[int], target: int) -> List[int]:
     sum = 0
     head = 0
     tail = -1
@@ -20,4 +20,4 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     return
 
 
-twoSum([3,3], 6)
+
